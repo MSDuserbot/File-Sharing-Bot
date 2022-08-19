@@ -90,6 +90,8 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
+		[ InlineKeyboardButton("⚜ ᴊᴏɪɴ ᴍʏ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⚜", url=f'http://t.me/TNMovieChat')],
+			
                 [
                     InlineKeyboardButton("😊 About Me", callback_data = "about"),
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
