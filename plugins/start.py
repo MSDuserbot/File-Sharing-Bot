@@ -90,7 +90,7 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
-		[ InlineKeyboardButton("⚜ ᴊᴏɪɴ ᴍʏ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⚜", url=f'http://t.me/TNMovieChat')],
+		[ InlineKeyboardButton("⚜ ᴊᴏɪɴ ᴍʏ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⚜", url=f'http://t.me/TNMovieHub')],
 		
 		    [InlineKeyboardButton('🌟 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ 🌟', url='https://t.me/TNMoviesChat')],
                 [
